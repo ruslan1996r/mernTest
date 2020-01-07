@@ -1,5 +1,6 @@
 .view {
   min-height: 100vh;
+  margin-bottom: 60px;
   .user__form {
     width: 100%;
     display: flex;
@@ -14,6 +15,7 @@
     display: flex;
     flex-direction: row;
     &__form {
+      margin-right: 60px;
       margin-left: 100px;
       &-field {
         display: flex;
@@ -34,6 +36,6 @@
   img {
     max-width: 400px;
     margin-bottom: 30px;
-    margin-left: 60px;
+    margin-left: 0px;
   }
 }
