@@ -1,0 +1,38 @@
+.registrate {
+  h2 {
+    padding-top: 80px;
+    margin-bottom: 60px;
+  }
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .registrate__field {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      position: relative;
+      &-show {
+        font-size: 11px;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 30px;
+        right: 0;
+      }
+    }
+    button {
+      margin-top: 10px;
+    }
+  }
+  a {
+    margin-top: 30px;
+    color: #171a21;
+  }
+}

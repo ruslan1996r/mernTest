@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "kakayaToSecretnayaStrochka",
+  "mongoUri": "mongodb+srv://ruslik:123456mern@cluster0-umhtv.azure.mongodb.net/test?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}

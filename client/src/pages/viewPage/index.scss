@@ -1,0 +1,39 @@
+.view {
+  min-height: 100vh;
+  .user__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin: 10px;
+      padding: 0 20%;
+    }
+  }
+  .edit {
+    display: flex;
+    flex-direction: row;
+    &__form {
+      margin-left: 100px;
+      &-field {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .view__owner {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 60px;
+    button {
+      margin: 0 20px;
+    }
+  }
+  img {
+    max-width: 400px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+  }
+}

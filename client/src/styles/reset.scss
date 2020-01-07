@@ -1,0 +1,200 @@
+//-----------------RESET STYLES-----------------//
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+menu,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+body {
+  line-height: 1;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+//-----------------RESET STYLES-----------------//
+
+//-----------------COMMON STYLES----------------//
+html,
+body {
+  font-family: "Poppins";
+}
+h2 {
+  text-transform: capitalize;
+  padding-top: 120px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #171a21;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background: #171a21;
+  text-align: center;
+  color: #c4c2bf;
+  line-height: 80px;
+}
+
+label {
+  cursor: pointer;
+}
+label {
+  font-size: 18px;
+}
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #171a21;
+  color: #171a21;
+  font-size: 18px;
+  width: 250px;
+  resize: none;
+  font-family: "Poppins";
+}
+
+button {
+  border: 0px;
+  background: #171a21;
+  color: #c4c2bf;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  border: 1px solid #171a21;
+}
+
+button:hover {
+  background: #c4c2bf;
+  color: #171a21;
+  border: 1px solid #171a21;
+}
+.container {
+  min-height: calc(100vh - 80px) !important;
+}

@@ -1,0 +1,46 @@
+For start server: npm run server
+For start client: npm start
+For start client and server with one command: npm run dev
+For build: npm run client:build
+
+//server and init
+1) npm init
+2.1) npm i express, mongoose, config, express-validator
+2.2) npm i -D nodemon, concurrently
+3) package.json => "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+4) create config folder => default.json
+
+//connect to db
+5.1) mongodb.com = > create new project => create project
+5.2) build a cluster => free (������� Azure, ����������) => create cluster
+5.3) On cluster => connect => add your current id => add your id
+5.4) create user: username - ruslik, password - 123456mern => create mongodb user
+5.5) connection method => connect your application => current link to default.json (uri and change <password>)
+//https://cloud.mongodb.com/v2/5e05dff4f2a30b33af0f3a3b#clusters
+
+//client
+6) npx create-react-app client
+7) package.json (client) add "proxy":"http://localhost:5000"
+Proxy. ���������� ��� ������� ���������� �� ������ ���� - localhost:3000. ��� ������� ������ ����� �������������� �� localhost:5000
+
+//prepare for hosting
+8) package.json (main) => "scripts": {
+   "start": "node app.js" => "start": "cross-env NODE_ENV=production node app.js",
+    "client:install":"npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+  },
+9) npm i --save-dev cross-env (cross-platform variables: Linux, Windows...)
+
+//add git
+10) .gitignore
+11) Create new repo (ruslan1996r in this project)
+11.1) +, Create a new repository, public
+12.1) git init
+12.2) git add .
+12.3) git remote add origin 
+12.4) git push -u origin master
